@@ -1,0 +1,29 @@
+body{
+    background-color: #083B4C;
+}
+
+.container-fizz{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+
+.card-fizz{
+    width: calc( 100% / 8);
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.bg-fz-primary{
+    background-color: #1389B2;
+}
+
+.bg-fz-secondary{
+    background-color: #0CD6A1;
+}
+
+.bg-fz-buzz{
+    background-color: #FFD166;
+}
